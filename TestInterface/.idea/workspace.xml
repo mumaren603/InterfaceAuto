@@ -10,45 +10,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TestInterface$111.coverage" NAME="111 Coverage Results" MODIFIED="1584523005433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/TestInterface$readConfig.coverage" NAME="readConfig Coverage Results" MODIFIED="1584430275882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Opertion" />
-    <SUITE FILE_PATH="coverage/TestInterface$sendEmail.coverage" NAME="sendEmail Coverage Results" MODIFIED="1584430334738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Email" />
-    <SUITE FILE_PATH="coverage/TestInterface$report.coverage" NAME="report Coverage Results" MODIFIED="1584431246047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestReport" />
-    <SUITE FILE_PATH="coverage/TestInterface$common.coverage" NAME="common Coverage Results" MODIFIED="1556593969548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestInterface$111.coverage" NAME="111 Coverage Results" MODIFIED="1585295311606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/TestInterface$Unittests_for_testAzqdController_azqdController.coverage" NAME="Unittests for testAzqdController.azqdController Coverage Results" MODIFIED="1584685828627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
+    <SUITE FILE_PATH="coverage/TestInterface$report.coverage" NAME="report Coverage Results" MODIFIED="1584952000700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestReport" />
     <SUITE FILE_PATH="coverage/TestInterface$interfaceTest.coverage" NAME="interfaceTest Coverage Results" MODIFIED="1583377381194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Opertion" />
+    <SUITE FILE_PATH="coverage/TestInterface$Unittests_in_testAzqdController_py.coverage" NAME="Unittests in testAzqdController.py Coverage Results" MODIFIED="1584670626543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
     <SUITE FILE_PATH="coverage/TestInterface$Log.coverage" NAME="Log Coverage Results" MODIFIED="1561096748153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/TestInterface$tableExecute.coverage" NAME="tableExecute Coverage Results" MODIFIED="1573647141910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tableOpertion" />
     <SUITE FILE_PATH="coverage/TestInterface$aa.coverage" NAME="aa Coverage Results" MODIFIED="1557052475449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
-    <SUITE FILE_PATH="coverage/TestInterface$log1.coverage" NAME="log1 Coverage Results" MODIFIED="1558079468209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/TestInterface$temp.coverage" NAME="temp Coverage Results" MODIFIED="1577066132810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Opertion" />
     <SUITE FILE_PATH="coverage/TestInterface$readConfig__1_.coverage" NAME="readConfig (1) Coverage Results" MODIFIED="1583199202814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Opertion" />
     <SUITE FILE_PATH="coverage/TestInterface$logInfo.coverage" NAME="logInfo Coverage Results" MODIFIED="1562841423679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Log" />
     <SUITE FILE_PATH="coverage/TestInterface$testApi.coverage" NAME="testApi Coverage Results" MODIFIED="1557055665565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TestInterface$run.coverage" NAME="run Coverage Results" MODIFIED="1583399851510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestAll" />
     <SUITE FILE_PATH="coverage/TestInterface$test.coverage" NAME="test Coverage Results" MODIFIED="1583376028821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestAll" />
-    <SUITE FILE_PATH="coverage/TestInterface$excelExecute.coverage" NAME="excelExecute Coverage Results" MODIFIED="1558001810829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExcelOpertion" />
+    <SUITE FILE_PATH="coverage/TestInterface$Unittests_for_testAzqdController_azqdController_test_getAzqdById001.coverage" NAME="Unittests for testAzqdController.azqdController.test_getAzqdById001 Coverage Results" MODIFIED="1584674900120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
     <SUITE FILE_PATH="coverage/TestInterface$ExcelOpertion.coverage" NAME="ExcelOpertion Coverage Results" MODIFIED="1583374704348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Opertion" />
+    <SUITE FILE_PATH="coverage/TestInterface$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1583809710438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestInterface$222.coverage" NAME="222 Coverage Results" MODIFIED="1584674595595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/TestInterface$readConfig.coverage" NAME="readConfig Coverage Results" MODIFIED="1584926357987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Opertion" />
+    <SUITE FILE_PATH="coverage/TestInterface$sendEmail.coverage" NAME="sendEmail Coverage Results" MODIFIED="1584926769177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Email" />
+    <SUITE FILE_PATH="coverage/TestInterface$common.coverage" NAME="common Coverage Results" MODIFIED="1556593969548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestInterface$tableExecute.coverage" NAME="tableExecute Coverage Results" MODIFIED="1573647141910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tableOpertion" />
+    <SUITE FILE_PATH="coverage/TestInterface$log1.coverage" NAME="log1 Coverage Results" MODIFIED="1558079468209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/TestInterface$getCaselistInfo.coverage" NAME="getCaselistInfo Coverage Results" MODIFIED="1584685451045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/TestInterface$run.coverage" NAME="run Coverage Results" MODIFIED="1584945548596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestInterface$Unittests_for_testAzqdController_azqdController_test_getDaglHxx001.coverage" NAME="Unittests for testAzqdController.azqdController.test_getDaglHxx001 Coverage Results" MODIFIED="1584673640871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
+    <SUITE FILE_PATH="coverage/TestInterface$excelExecute.coverage" NAME="excelExecute Coverage Results" MODIFIED="1558001810829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExcelOpertion" />
     <SUITE FILE_PATH="coverage/TestInterface$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1583376011719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestAll" />
     <SUITE FILE_PATH="coverage/TestInterface$Unittests_for_testAzqdController_anqdController_test_getAzqdById3.coverage" NAME="Unittests for testAzqdController.anqdController.test_getAzqdById3 Coverage Results" MODIFIED="1583400077983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
-    <SUITE FILE_PATH="coverage/TestInterface$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1583809710438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestInterface$Unittests_for_testAzqdController_azqdController_test_getAzqdById.coverage" NAME="Unittests for testAzqdController.azqdController.test_getAzqdById Coverage Results" MODIFIED="1584605444652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="conf.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/conf.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commFunc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/commFunc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="551">
+              <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -57,8 +54,8 @@
       <file leaf-file-name="readConfig.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Opertion/readConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-239">
-              <caret line="53" column="70" lean-forward="false" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+            <state relative-caret-position="1102">
+              <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
               </folding>
@@ -66,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
+      <file leaf-file-name="Log.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/Log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -79,21 +76,51 @@
       <file leaf-file-name="report.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestReport/report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#16#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="608">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="60" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testAzqdController.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testcase/testAzqdController.py">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="589">
+              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sendEmail.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Email/sendEmail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/log1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interfaceTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opertion/interfaceTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding>
+                <element signature="e#306#2175#1" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,9 +128,21 @@
       <file leaf-file-name="111.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/111.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="19">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testAzqdController.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testcase/testAzqdController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,12 +184,15 @@
         <option value="$PROJECT_DIR$/Testcase/testGetBdcdyxxById.py" />
         <option value="$PROJECT_DIR$/Testcase/qq.py" />
         <option value="$PROJECT_DIR$/Testcase/testAllCase.py" />
+        <option value="$PROJECT_DIR$/common/latestReport.py" />
+        <option value="$PROJECT_DIR$/common/222.py" />
+        <option value="$PROJECT_DIR$/common/commFunc.py" />
+        <option value="$PROJECT_DIR$/common/getCaselistInfo.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/Testcase/testAzqdController.py" />
-        <option value="$PROJECT_DIR$/common/latestReport.py" />
-        <option value="$PROJECT_DIR$/common/commFunc.py" />
         <option value="$PROJECT_DIR$/conf/conf.ini" />
         <option value="$PROJECT_DIR$/Opertion/readConfig.py" />
+        <option value="$PROJECT_DIR$/common/getLatestReport.py" />
         <option value="$PROJECT_DIR$/Email/sendEmail.py" />
         <option value="$PROJECT_DIR$/TestReport/report.py" />
         <option value="$PROJECT_DIR$/common/111.py" />
@@ -184,14 +226,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TestInterface" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="Email" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="Opertion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="Testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="TestReport" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,7 +363,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -325,19 +402,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.report" />
-      <item index="1" class="java.lang.String" itemvalue="Python.run (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.readConfig" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sendEmail" />
+      <item index="0" class="java.lang.String" itemvalue="Python.run" />
+      <item index="1" class="java.lang.String" itemvalue="Python.report" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sendEmail" />
+      <item index="3" class="java.lang.String" itemvalue="Python.readConfig" />
       <item index="4" class="java.lang.String" itemvalue="Python.111" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.111" />
         <item index="1" class="java.lang.String" itemvalue="Python.report" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sendEmail" />
-        <item index="3" class="java.lang.String" itemvalue="Python.readConfig" />
-        <item index="4" class="java.lang.String" itemvalue="Python.run (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.run" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sendEmail" />
+        <item index="4" class="java.lang.String" itemvalue="Python.readConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -358,8 +435,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_testAzqdController_anqdController_test_getAzqdById3 - 2020.03.05 at 17h 21m 19s.xml">
-      <configuration name="Unittests for testAzqdController.anqdController.test_getAzqdById3" configurationId="tests" />
+    <history-entry file="Unittests_for_testAzqdController_azqdController - 2020.03.20 at 14h 26m 10s.xml">
+      <configuration name="Unittests for testAzqdController.azqdController" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testAzqdController_azqdController - 2020.03.20 at 14h 30m 29s.xml">
+      <configuration name="Unittests for testAzqdController.azqdController" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testAzqdController_azqdController_test_getAzqdById001 - 2020.03.20 at 11h 04m 01s.xml">
+      <configuration name="Unittests for testAzqdController.azqdController.test_getAzqdById001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testAzqdController_azqdController_test_getAzqdById001 - 2020.03.20 at 11h 04m 30s.xml">
+      <configuration name="Unittests for testAzqdController.azqdController.test_getAzqdById001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testAzqdController_azqdController_test_getAzqdById001 - 2020.03.20 at 11h 05m 12s.xml">
+      <configuration name="Unittests for testAzqdController.azqdController.test_getAzqdById001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testAzqdController_azqdController_test_getAzqdById001 - 2020.03.20 at 11h 28m 21s.xml">
+      <configuration name="Unittests for testAzqdController.azqdController.test_getAzqdById001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_testAzqdController_azqdController_test_getDaglHxx001 - 2020.03.20 at 11h 07m 21s.xml">
+      <configuration name="Unittests for testAzqdController.azqdController.test_getDaglHxx001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testAzqdController_py - 2020.03.20 at 10h 07m 17s.xml">
+      <configuration name="Unittests in testAzqdController.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testAzqdController_py - 2020.03.20 at 10h 08m 03s.xml">
+      <configuration name="Unittests in testAzqdController.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testAzqdController_py - 2020.03.20 at 10h 17m 07s.xml">
+      <configuration name="Unittests in testAzqdController.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -370,9 +474,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26377296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25709516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -396,26 +500,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="84" />
+      <option name="time" value="104" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ExcelOpertion/excelExecute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/conf.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Opertion/readConfig.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -517,42 +606,10 @@
     <entry file="file://$PROJECT_DIR$/TestAll/test2.py" />
     <entry file="file://$PROJECT_DIR$/TestAll/test.py" />
     <entry file="file://$PROJECT_DIR$/testApi.py" />
-    <entry file="file://$PROJECT_DIR$/common/log1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/Log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Opertion/ExcelOpertion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#16#27#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InterfaceOpertion/interfaceTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="53" lean-forward="true" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Testcase/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,18 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="499" column="4" lean-forward="false" selection-start-line="499" selection-start-column="4" selection-end-line="499" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Opertion/interfaceTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="99" column="10" lean-forward="true" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-            <element signature="e#306#2175#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,15 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-121">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/getLatestReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,48 +643,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/conf.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/commFunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/getCaselistInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opertion/ExcelOpertion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#16#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/222.py" />
+    <entry file="file://$PROJECT_DIR$/common/log1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Email/sendEmail.py">
+    <entry file="file://$PROJECT_DIR$/InterfaceOpertion/interfaceTest.py" />
+    <entry file="file://$PROJECT_DIR$/common/Log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="494">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opertion/interfaceTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding>
-            <element signature="e#16#52#0" expanded="true" />
+            <element signature="e#306#2175#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Testcase/testAzqdController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="57">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/getLatestReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Email/sendEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Opertion/readConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="53" column="70" lean-forward="false" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+        <state relative-caret-position="1102">
+          <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
           </folding>
@@ -657,26 +751,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestReport/report.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="608">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="60" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/111.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>

@@ -22,18 +22,18 @@ class readConf(object):
 
     def getHttpInfo(self):
         s = self.conf.sections()         # 获取所有sections,列表返回
-        print(type(s), s)          #<class 'list'> ['HTTP', 'EXCEL', 'LOG', 'DATABASE', 'EMAIL']
+        #print(type(s), s)          #<class 'list'> ['HTTP', 'EXCEL', 'LOG', 'DATABASE', 'EMAIL']
         o = self.conf.options("HTTP")   # 获取指定section 的options，列表返回
-        print(o)                   #['ip', 'port1', 'port2']
+        #print(o)                   #['ip', 'port1', 'port2']
         httpInfo = self.conf.items("HTTP")  # 获取指定section 的配置信息  会把sections下k-v输出
-        print(httpInfo)            #[('ip', '172.0.0.103'), ('port1', '1100'), ('port2', '1103')]
+        #print(httpInfo)            #[('ip', '172.0.0.103'), ('port1', '1100'), ('port2', '1103')]
         IP = httpInfo[0][1]         # 获取服务器IP
-        print(type(IP), IP)
+        #print(type(IP), IP)
         PORT = httpInfo[1][1]      # 获取登记系统后端端口号
-        print(PORT)
+        #print(PORT)
 
         reqURL = 'http://' + IP + ':' + PORT
-        print(reqURL)
+        #print(reqURL)
         return reqURL
 
     def getExcelInfo(self):
@@ -41,7 +41,7 @@ class readConf(object):
             e = self.conf.items("EXCEL")  # 获取指定section 的配置信息  会把sections下k-v输出
             filePath = e[0][1]              # 获取测试用例路径
             #logger.info("测试用例路径为：%s", filePath)
-            print(type(filePath), filePath)
+            #print(type(filePath), filePath)
         except Exception as e:
             print(e)
         finally:
@@ -50,13 +50,17 @@ class readConf(object):
     def getEmailInfo(self):
         try:
             e = self.conf.items("EMAIL")
-            emailReceivers = e[0][1]     #str
-            emailReceivers = commFunc.strToList(emailReceivers)  #list
-            print (emailReceivers,type(emailReceivers))
+            senderAccount = e[0][1]
+            # print(senderAccount, type(senderAccount))
+            senderPasswd = e[1][1]
+            # print(senderPasswd, type(senderPasswd))
+            receiverUser = e[2][1]     #str
+            receiverUser = commFunc.strToList(receiverUser)  #list
+            # print (receiverUser,type(receiverUser))
         except Exception as e:
             print(e)
         finally:
-            return  emailReceivers
+            return  receiverUser
 
     def getDbInfo(self):
         pass
@@ -75,6 +79,6 @@ class readConf(object):
 # readConf().readConf()
 # readConf().getHttpInfo()
 # readConf().getEXCEL()
-# readConf().getEmailInfo()
+readConf().getEmailInfo()
 
 
