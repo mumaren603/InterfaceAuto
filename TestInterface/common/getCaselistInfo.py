@@ -5,11 +5,11 @@
 通过接口名（即每一个测试用例函数名）与caselist中逐一匹配，匹配到即知道该接口对应信息在列表中位置，从而获取该接口请求详细信息。
 '''
 
-from Opertion import ExcelOpertion
-from Opertion import  readConfig
+from mainMethod.readConfig import readConf
+from mainMethod.ExcelOpertion import excelTest
 
 #获取Excel中所有case信息
-caselist =  ExcelOpertion.excelTest(readConfig.readConf().getExcelInfo()).readExcel()
+caselist =  excelTest(readConf().getExcelInfo()).readExcel()
 
 #str接受函数名（即每个测试用例方法）
 def isFuncNameExistsList(str):
@@ -17,3 +17,7 @@ def isFuncNameExistsList(str):
         for j in range(len(caselist[i])):
             if caselist[i][j] == str:
                 return i
+
+
+
+

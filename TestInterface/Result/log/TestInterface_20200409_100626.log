@@ -1,0 +1,79 @@
+2020-04-09 10:06:26,299 - readConfig.py - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-09 10:06:26,300 - readConfig.py - DEBUG - HTTP配置项小类详细信息：[('schema', 'http'), ('ip', '172.0.0.108'), ('port', '9999')]
+2020-04-09 10:06:26,300 - readConfig.py - DEBUG - 服务IP为：http
+2020-04-09 10:06:26,300 - readConfig.py - DEBUG - 服务IP为：172.0.0.108
+2020-04-09 10:06:26,300 - readConfig.py - DEBUG - 服务端口为：9999
+2020-04-09 10:06:26,300 - readConfig.py - INFO - 请求URL为：http://172.0.0.108:9999
+2020-04-09 10:06:26,328 - readConfig.py - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-09 10:06:26,329 - readConfig.py - INFO - 测试用例路径为：F:/python_s14/TestInterface/InterfaceSuits/测试用例.xlsx
+2020-04-09 10:06:26,329 - readConfig.py - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-09 10:06:26,330 - readConfig.py - INFO - 测试用例路径为：F:/python_s14/TestInterface/InterfaceSuits/测试用例.xlsx
+2020-04-09 10:06:26,347 - ExcelOpertion.py - DEBUG - 表格sheet页为：['Sheet1', 'Sheet2', 'Sheet3']
+2020-04-09 10:06:26,347 - ExcelOpertion.py - DEBUG - 表格中读取到行数为：5
+2020-04-09 10:06:26,356 - readConfig.py - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-09 10:06:26,357 - readConfig.py - INFO - 邮件发件人为：13338625696@163.com,邮件接受人为：['461735078@qq.com', '13338625696@163.com']
+2020-04-09 10:06:26,357 - readConfig.py - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-09 10:06:26,358 - readConfig.py - INFO - 测试日志路径为：F:\python_s14\TestInterface\Testcase
+2020-04-09 10:06:26,358 - run.py - INFO - 测试用例路径为：F:\python_s14\TestInterface\Testcase
+2020-04-09 10:06:26,361 - testOutQuery.py - DEBUG - 接口在list中下标是：1
+2020-04-09 10:06:26,361 - interfaceTest.py - INFO - 接口请求地址：/out/isaip/dycx
+2020-04-09 10:06:26,362 - interfaceTest.py - INFO - 接口请求方法：post
+2020-04-09 10:06:26,362 - interfaceTest.py - INFO - 接口请求头：{"Content-Type":"application/json"}
+2020-04-09 10:06:26,362 - interfaceTest.py - INFO - 接口请求参数：b'{"BDCZMH":"\xe6\xb3\xb0\xe5\xb7\x9e\xe4\xbb\x96\xe9\xa1\xb9(2012)\xe7\xac\xac7118\xe5\x8f\xb7"}'
+2020-04-09 10:06:26,362 - interfaceTest.py - DEBUG - 接口请求头信息为{'Content-Type': 'application/json'}
+2020-04-09 10:06:26,438 - testOutQuery.py - DEBUG - test_getDyxx001接口响应信息为:(200, '{"code":0,"msg":"查询成功","data":{"DYFS":null,"YWH":"TDWAHF32396IQ6S356","ZWR":"缪霞林  张巧贞","BDCZMH":"泰州他项(2012)第7118号","ZSBH":"9255","DBFW":null,"ZGZQQDSSHSE":null,"FCDYMJ":null,"TDDYMJ":23.1000,"BIZ":"人民币","DJSJ":"2012-10-18 00:00:00","ZQLXQX":"2010-7-19至2030-7-19","ZXSJ":null,"ZT":"现势","FJ":"1、抵押\\r\\n2、许可抵押面积(平方米)：23.1平方米\\r\\n3、许可抵押金额(大写)土地资产不计入抵押担保值","QT":null,"BDCZH":"泰州国用(2012)第10424号","BZ":null,"QLRXX":{"DYR":[{"DYR":"缪霞林","DYRZJZL":"身份证","DYRZJHM":"321020196902182113"},{"DYR":"张巧贞","DYRZJZL":"身份证","DYRZJHM":"321020196505132147"}],"DYQR":[{"DYQR":"中国银行股份有限公司泰州分行","DYQRZJZL":"身份证","DYQRZJHM":null}]}}}')
+2020-04-09 10:06:26,438 - testOutQuery.py - DEBUG - 该接口在list中下标是：0
+2020-04-09 10:06:26,438 - interfaceTest.py - INFO - 接口请求地址：/out/isaip/tdcx
+2020-04-09 10:06:26,438 - interfaceTest.py - INFO - 接口请求方法：post
+2020-04-09 10:06:26,438 - interfaceTest.py - INFO - 接口请求头：{"Content-Type":"application/json"}
+2020-04-09 10:06:26,438 - interfaceTest.py - INFO - 接口请求参数：b'{"ZDDM":"321202406206GB00169"}'
+2020-04-09 10:06:26,438 - interfaceTest.py - DEBUG - 接口请求头信息为{'Content-Type': 'application/json'}
+2020-04-09 10:06:26,472 - testOutQuery.py - DEBUG - test_getTdxx001接口响应信息为:(200, '{"code":0,"msg":"查询成功","data":{"BDCDYH":"321202406206GB00169W00000000","ZDDM":"321202406206GB00169","TDZL":"海陵区锦东花苑28幢02室","TDYT":"城镇住宅用地","ZDMJ":192.8000,"TDQLXZ":"出让","QLSDFS":"地表","TDSYQR":"缪来居","QLQSSJ":null,"QLJSSJ":"2075-10-16 00:00:00"}}')
+2020-04-09 10:06:26,472 - testOutQuery.py - DEBUG - 该接口在list中下标是：2
+2020-04-09 10:06:26,472 - interfaceTest.py - INFO - 接口请求地址：/out/isaip/ygcx
+2020-04-09 10:06:26,472 - interfaceTest.py - INFO - 接口请求方法：post
+2020-04-09 10:06:26,472 - interfaceTest.py - INFO - 接口请求头：{"Content-Type":"application/json"}
+2020-04-09 10:06:26,472 - interfaceTest.py - INFO - 接口请求参数：b'{\n"BDCDYH": "",\n"FWDM": "",\n"FWZL": "",\n"YGQLR": "",\n"YGZMH": "\xe8\x8b\x8f(2019)\xe6\xb3\xb0\xe5\xb7\x9e\xe4\xb8\x8d\xe5\x8a\xa8\xe4\xba\xa7\xe8\xaf\x81\xe6\x98\x8e\xe7\xac\xac0000510\xe5\x8f\xb7",\n"ZJHM": ""\n}\n'
+2020-04-09 10:06:26,472 - interfaceTest.py - DEBUG - 接口请求头信息为{'Content-Type': 'application/json'}
+2020-04-09 10:06:26,568 - testOutQuery.py - DEBUG - test_getYgxx001接口响应信息为:(200, '{"code":0,"msg":"查询成功","data":[{"BDCDYH":"321202050002GB00019F00250107","FWDM":"TS-190108093940-360061C2","CQZH":"苏(2019)泰州不动产证明第0000510号","BDCLX":"包含土地、包含建筑物","YT":"成套住宅","ZL":"水映蓝庭25幢107室","FWXZ":"市场化商品房","FWJG":"aaa","SJC":"1","ZCS":"1","FWLX":"bbb","MYC":"1","ZRZH":"0025","FJH":"107","JZMJ":1.0000,"TNMJ":2.0000,"FTMJ":33.1100,"DJSJ":"2019-01-09 10:32:36","FCZFZSJ":"2019-02-13 00:00:00","TDQLLX":"国有建设用地使用权","QLQSSJ":"2017-04-01 10:02:03","QLJSSJ":"2020-04-01 00:00:00","TDQLXZ":"出让","TDYT":"城镇住宅用地","FJ":"fdsvdsfsdaf","TDSYQMJ":123123.0000,"TDFTMJ":3.0006,"TDDYMJ":1.0010,"DYXX":[{"FWDM":"TS-190108093940-360061C2","BDCDYH":"321202050002GB00019F00250107","BDCDJZMH":"20190008679","DYQR":"无味","DYJE":123.000000,"DYKSSJ":"2020-04-01 00:00:00","DYJSSJ":"2021-04-28 09:04:56","DJSJ":"2019-11-11 10:37:16","QSZT":"现势","FJ":"543523452345","CQZH":"苏(2019)泰州不动产证明第0000510号","DYFS":"一般抵押","DBFW":"详见抵押合同","DYR":"吴海洋,魏爱霞"}],"CFXX":[{"FWDM":"TS-190108093940-360061C2","BDCDYH":"321202050002GB00019F00250107","CFJG":"泰州市海陵区中级人民法院","CFLX":"预查封","CFWH":"2020-0413","CFKSSJ":"2020-04-02 00:00:00","CFJSSJ":"2022-04-01 00:00:00","DJSJ":"2020-04-02 16:40:23","QSZT":"现势","FJ":null,"CQZH":"苏(2019)泰州不动产证明第0000510号"}],"QLR":[{"QLRMC":"吴海洋","QLRZJZL":"身份证","QLRZJH":"32128419821129103X","GYFS":"共同共有","QLBL":"30%","CQZH":"苏(2019)泰州不动产证明第0000510号"},{"QLRMC":"魏爱霞","QLRZJZL":"身份证","QLRZJH":"321284198202010021","GYFS":"共同共有","QLBL":"70%","CQZH":"苏(2019)泰州不动产证明第0000510号"}]}]}')
+2020-04-09 10:06:26,568 - testOutQuery.py - DEBUG - 该接口在list中下标是：3
+2020-04-09 10:06:26,568 - interfaceTest.py - INFO - 接口请求地址：/out/isaip/ygcx
+2020-04-09 10:06:26,568 - interfaceTest.py - INFO - 接口请求方法：post
+2020-04-09 10:06:26,568 - interfaceTest.py - INFO - 接口请求头：{"Content-Type":"application/json"}
+2020-04-09 10:06:26,568 - interfaceTest.py - INFO - 接口请求参数：b'{"FWDM": "FHID800020469"}\n'
+2020-04-09 10:06:26,569 - interfaceTest.py - DEBUG - 接口请求头信息为{'Content-Type': 'application/json'}
+2020-04-09 10:06:26,660 - testOutQuery.py - DEBUG - test_getYgxx002接口响应信息为:(200, '{"code":0,"msg":"查询成功","data":[{"BDCDYH":"321206150205GB01867F54721586","FWDM":"FHID800020469","CQZH":"苏（2020）宜兴不动产证明第0008948号","BDCLX":"包含土地、包含建筑物","YT":"其它","ZL":"泰州市泰高路309号二手车交易中心3286室","FWXZ":"市场化商品房","FWJG":"钢筋混凝土结构","SJC":"3","ZCS":"3","FWLX":"工业用房","MYC":"3","ZRZH":"5472","FJH":"3286","JZMJ":28.9200,"TNMJ":16.0000,"FTMJ":12.0000,"DJSJ":"2020-02-26 16:23:58","FCZFZSJ":null,"TDQLLX":"集体建设用地使用权","QLQSSJ":"2020-02-26 00:00:00","QLJSSJ":"2090-02-25 00:00:00","TDQLXZ":"出让","TDYT":"特殊用地","FJ":"登记类型：存量房转移\\n业务小类：存量房预告\\n","TDSYQMJ":90.0000,"TDFTMJ":40.0000,"TDDYMJ":50.0000,"DYXX":[],"CFXX":[],"QLR":[{"QLRMC":"人人","QLRZJZL":"护照","QLRZJH":"4555555","GYFS":"共同共有","QLBL":null,"CQZH":null}]}]}')
+2020-04-09 10:06:26,660 - readConfig.py - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-09 10:06:26,661 - readConfig.py - INFO - 测试报告路径为：F:\python_s14\TestInterface\Result\Report
+2020-04-09 10:06:26,661 - report.py - DEBUG - 测试报告所在目录为：F:\python_s14\TestInterface\Result\Report
+2020-04-09 10:06:26,661 - report.py - DEBUG - 生成的测试报告全路径为：F:\python_s14\TestInterface\Result\Report\Report_20200409_100626.html
+2020-04-09 10:06:26,663 - testOutQuery.py - DEBUG - 接口在list中下标是：1
+2020-04-09 10:06:26,663 - interfaceTest.py - INFO - 接口请求地址：/out/isaip/dycx
+2020-04-09 10:06:26,663 - interfaceTest.py - INFO - 接口请求方法：post
+2020-04-09 10:06:26,663 - interfaceTest.py - INFO - 接口请求头：{"Content-Type":"application/json"}
+2020-04-09 10:06:26,663 - interfaceTest.py - INFO - 接口请求参数：b'{"BDCZMH":"\xe6\xb3\xb0\xe5\xb7\x9e\xe4\xbb\x96\xe9\xa1\xb9(2012)\xe7\xac\xac7118\xe5\x8f\xb7"}'
+2020-04-09 10:06:26,663 - interfaceTest.py - DEBUG - 接口请求头信息为{'Content-Type': 'application/json'}
+2020-04-09 10:06:26,714 - testOutQuery.py - DEBUG - test_getDyxx001接口响应信息为:(200, '{"code":0,"msg":"查询成功","data":{"DYFS":null,"YWH":"TDWAHF32396IQ6S356","ZWR":"缪霞林  张巧贞","BDCZMH":"泰州他项(2012)第7118号","ZSBH":"9255","DBFW":null,"ZGZQQDSSHSE":null,"FCDYMJ":null,"TDDYMJ":23.1000,"BIZ":"人民币","DJSJ":"2012-10-18 00:00:00","ZQLXQX":"2010-7-19至2030-7-19","ZXSJ":null,"ZT":"现势","FJ":"1、抵押\\r\\n2、许可抵押面积(平方米)：23.1平方米\\r\\n3、许可抵押金额(大写)土地资产不计入抵押担保值","QT":null,"BDCZH":"泰州国用(2012)第10424号","BZ":null,"QLRXX":{"DYR":[{"DYR":"缪霞林","DYRZJZL":"身份证","DYRZJHM":"321020196902182113"},{"DYR":"张巧贞","DYRZJZL":"身份证","DYRZJHM":"321020196505132147"}],"DYQR":[{"DYQR":"中国银行股份有限公司泰州分行","DYQRZJZL":"身份证","DYQRZJHM":null}]}}}')
+2020-04-09 10:06:26,714 - testOutQuery.py - DEBUG - 该接口在list中下标是：0
+2020-04-09 10:06:26,714 - interfaceTest.py - INFO - 接口请求地址：/out/isaip/tdcx
+2020-04-09 10:06:26,714 - interfaceTest.py - INFO - 接口请求方法：post
+2020-04-09 10:06:26,714 - interfaceTest.py - INFO - 接口请求头：{"Content-Type":"application/json"}
+2020-04-09 10:06:26,714 - interfaceTest.py - INFO - 接口请求参数：b'{"ZDDM":"321202406206GB00169"}'
+2020-04-09 10:06:26,715 - interfaceTest.py - DEBUG - 接口请求头信息为{'Content-Type': 'application/json'}
+2020-04-09 10:06:26,746 - testOutQuery.py - DEBUG - test_getTdxx001接口响应信息为:(200, '{"code":0,"msg":"查询成功","data":{"BDCDYH":"321202406206GB00169W00000000","ZDDM":"321202406206GB00169","TDZL":"海陵区锦东花苑28幢02室","TDYT":"城镇住宅用地","ZDMJ":192.8000,"TDQLXZ":"出让","QLSDFS":"地表","TDSYQR":"缪来居","QLQSSJ":null,"QLJSSJ":"2075-10-16 00:00:00"}}')
+2020-04-09 10:06:26,746 - testOutQuery.py - DEBUG - 该接口在list中下标是：2
+2020-04-09 10:06:26,746 - interfaceTest.py - INFO - 接口请求地址：/out/isaip/ygcx
+2020-04-09 10:06:26,746 - interfaceTest.py - INFO - 接口请求方法：post
+2020-04-09 10:06:26,746 - interfaceTest.py - INFO - 接口请求头：{"Content-Type":"application/json"}
+2020-04-09 10:06:26,747 - interfaceTest.py - INFO - 接口请求参数：b'{\n"BDCDYH": "",\n"FWDM": "",\n"FWZL": "",\n"YGQLR": "",\n"YGZMH": "\xe8\x8b\x8f(2019)\xe6\xb3\xb0\xe5\xb7\x9e\xe4\xb8\x8d\xe5\x8a\xa8\xe4\xba\xa7\xe8\xaf\x81\xe6\x98\x8e\xe7\xac\xac0000510\xe5\x8f\xb7",\n"ZJHM": ""\n}\n'
+2020-04-09 10:06:26,747 - interfaceTest.py - DEBUG - 接口请求头信息为{'Content-Type': 'application/json'}
+2020-04-09 10:06:26,843 - testOutQuery.py - DEBUG - test_getYgxx001接口响应信息为:(200, '{"code":0,"msg":"查询成功","data":[{"BDCDYH":"321202050002GB00019F00250107","FWDM":"TS-190108093940-360061C2","CQZH":"苏(2019)泰州不动产证明第0000510号","BDCLX":"包含土地、包含建筑物","YT":"成套住宅","ZL":"水映蓝庭25幢107室","FWXZ":"市场化商品房","FWJG":"aaa","SJC":"1","ZCS":"1","FWLX":"bbb","MYC":"1","ZRZH":"0025","FJH":"107","JZMJ":1.0000,"TNMJ":2.0000,"FTMJ":33.1100,"DJSJ":"2019-01-09 10:32:36","FCZFZSJ":"2019-02-13 00:00:00","TDQLLX":"国有建设用地使用权","QLQSSJ":"2017-04-01 10:02:03","QLJSSJ":"2020-04-01 00:00:00","TDQLXZ":"出让","TDYT":"城镇住宅用地","FJ":"fdsvdsfsdaf","TDSYQMJ":123123.0000,"TDFTMJ":3.0006,"TDDYMJ":1.0010,"DYXX":[{"FWDM":"TS-190108093940-360061C2","BDCDYH":"321202050002GB00019F00250107","BDCDJZMH":"20190008679","DYQR":"无味","DYJE":123.000000,"DYKSSJ":"2020-04-01 00:00:00","DYJSSJ":"2021-04-28 09:04:56","DJSJ":"2019-11-11 10:37:16","QSZT":"现势","FJ":"543523452345","CQZH":"苏(2019)泰州不动产证明第0000510号","DYFS":"一般抵押","DBFW":"详见抵押合同","DYR":"吴海洋,魏爱霞"}],"CFXX":[{"FWDM":"TS-190108093940-360061C2","BDCDYH":"321202050002GB00019F00250107","CFJG":"泰州市海陵区中级人民法院","CFLX":"预查封","CFWH":"2020-0413","CFKSSJ":"2020-04-02 00:00:00","CFJSSJ":"2022-04-01 00:00:00","DJSJ":"2020-04-02 16:40:23","QSZT":"现势","FJ":null,"CQZH":"苏(2019)泰州不动产证明第0000510号"}],"QLR":[{"QLRMC":"吴海洋","QLRZJZL":"身份证","QLRZJH":"32128419821129103X","GYFS":"共同共有","QLBL":"30%","CQZH":"苏(2019)泰州不动产证明第0000510号"},{"QLRMC":"魏爱霞","QLRZJZL":"身份证","QLRZJH":"321284198202010021","GYFS":"共同共有","QLBL":"70%","CQZH":"苏(2019)泰州不动产证明第0000510号"}]}]}')
+2020-04-09 10:06:26,843 - testOutQuery.py - DEBUG - 该接口在list中下标是：3
+2020-04-09 10:06:26,843 - interfaceTest.py - INFO - 接口请求地址：/out/isaip/ygcx
+2020-04-09 10:06:26,843 - interfaceTest.py - INFO - 接口请求方法：post
+2020-04-09 10:06:26,844 - interfaceTest.py - INFO - 接口请求头：{"Content-Type":"application/json"}
+2020-04-09 10:06:26,844 - interfaceTest.py - INFO - 接口请求参数：b'{"FWDM": "FHID800020469"}\n'
+2020-04-09 10:06:26,844 - interfaceTest.py - DEBUG - 接口请求头信息为{'Content-Type': 'application/json'}
+2020-04-09 10:06:26,953 - testOutQuery.py - DEBUG - test_getYgxx002接口响应信息为:(200, '{"code":0,"msg":"查询成功","data":[{"BDCDYH":"321206150205GB01867F54721586","FWDM":"FHID800020469","CQZH":"苏（2020）宜兴不动产证明第0008948号","BDCLX":"包含土地、包含建筑物","YT":"其它","ZL":"泰州市泰高路309号二手车交易中心3286室","FWXZ":"市场化商品房","FWJG":"钢筋混凝土结构","SJC":"3","ZCS":"3","FWLX":"工业用房","MYC":"3","ZRZH":"5472","FJH":"3286","JZMJ":28.9200,"TNMJ":16.0000,"FTMJ":12.0000,"DJSJ":"2020-02-26 16:23:58","FCZFZSJ":null,"TDQLLX":"集体建设用地使用权","QLQSSJ":"2020-02-26 00:00:00","QLJSSJ":"2090-02-25 00:00:00","TDQLXZ":"出让","TDYT":"特殊用地","FJ":"登记类型：存量房转移\\n业务小类：存量房预告\\n","TDSYQMJ":90.0000,"TDFTMJ":40.0000,"TDDYMJ":50.0000,"DYXX":[],"CFXX":[],"QLR":[{"QLRMC":"人人","QLRZJZL":"护照","QLRZJH":"4555555","GYFS":"共同共有","QLBL":null,"CQZH":null}]}]}')
+2020-04-09 10:06:26,956 - report.py - DEBUG - 最新报告为：F:\python_s14\TestInterface\Result\Report\Report_20200409_100626.html
+2020-04-09 10:06:27,914 - sendEmail.py - INFO - 邮件发送成功

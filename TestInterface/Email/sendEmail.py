@@ -1,25 +1,21 @@
 #Author: ls Liu
 from email.mime.text import MIMEText
 from email.utils import formataddr
-from Opertion import readConfig
+from mainMethod.readConfig import readConf
 import smtplib
+from LogConf.loggerConf import loggerConf
 
+logger = loggerConf().getLog()
 
 #定义发件人，接收人信息
-sender_account = '13338625696@163.com'    #发送者邮箱账号
-sender_passwd = 'shan603'                   #发送者邮箱授权码，注意这里不是邮箱登录密码
-receiver_users = readConfig.readConf().getEmailInfo()    #收件人邮箱账号
-# print("收件人包括：%s" %receiver_users,type(receiver_users))
-
-# portPath='F:\python_s14\TestInterface\Report\Report_20200320_145518.html'
-# print("自定义路径：%s"%portPath,type(portPath))
+emailConfInfo = readConf().getEmailInfo()
+sender_account = emailConfInfo[0]      #发送者邮箱账号
+sender_passwd = emailConfInfo[1]       #发送者邮箱授权码，注意这里不是邮箱登录密码
+receiver_users = emailConfInfo[2]      #收件人邮箱账号
 
 def send_email(new_report):
-    # 读取最新的测试报告内容
-    print("传参路径：%s" %new_report,type(new_report))
     with open(new_report,'rb') as f:
         new_TestReport = f.read()
-        print(new_TestReport)
 
     #定义第三方SMTP服务一些参数
     msg = MIMEText(new_TestReport, 'html', 'utf-8')
@@ -34,10 +30,9 @@ def send_email(new_report):
         server.login(sender_account,sender_passwd)   # 括号中对应的是发件人邮箱账号、授权码
         server.sendmail(sender_account,receiver_users,msg.as_string())  # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
         server.quit()  # 关闭连接
-        print("邮件发送成功")
+        logger.info("邮件发送成功")
     except Exception as e:
-        print(e)
-        print("Error:无法发送邮件")
+        logger.error("邮件发送失败，失败原因:%s",e)
 
 
 

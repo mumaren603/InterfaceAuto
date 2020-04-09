@@ -1,7 +1,8 @@
 #Author: ls Liu
+
 import unittest
-from Opertion import interfaceTest
-from common import getCaselistInfo
+from mainMethod import interfaceTest
+from Common import getCaselistInfo
 
 
 class azqdController(unittest.TestCase):

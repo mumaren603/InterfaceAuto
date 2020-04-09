@@ -1,0 +1,10 @@
+2020-04-07 16:23:24,902 - LogConf.loggerConf - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-07 16:23:24,902 - LogConf.loggerConf - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-07 16:23:24,903 - LogConf.loggerConf - INFO - 请求URL为：http://172.0.0.108:9999
+2020-04-07 16:23:24,903 - LogConf.loggerConf - INFO - 请求URL为：http://172.0.0.108:9999
+2020-04-07 16:25:11,423 - LogConf.loggerConf - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-07 16:25:11,423 - LogConf.loggerConf - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-07 16:25:11,425 - LogConf.loggerConf - INFO - 请求URL为：http://172.0.0.108:9999
+2020-04-07 16:25:11,425 - LogConf.loggerConf - INFO - 请求URL为：http://172.0.0.108:9999
+2020-04-07 16:25:29,371 - LogConf.loggerConf - INFO - 配置文件路径为：F:\python_s14\TestInterface\conf\conf.ini
+2020-04-07 16:25:29,372 - LogConf.loggerConf - INFO - 请求URL为：http://172.0.0.108:9999
