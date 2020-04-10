@@ -11,19 +11,21 @@ logger = loggerConf().getLog()
 
 '''接口请求的封装'''
 class APITest(object):
-    def __init__(self,url,method,headers,data):
+    def __init__(self,apiName,url,method,headers,data):
+        self.apiName = apiName
+
         self.request_url = url
-        logger.info("接口请求地址：%s" %self.request_url)
+        logger.info("%s接口请求地址：%s" %(self.apiName,self.request_url))
 
         self.request_method = method
-        logger.info("接口请求方法：%s" %self.request_method)
+        logger.info("%s接口请求方法：%s" %(self.apiName,self.request_method))
 
         self.request_headers = headers
-        logger.info("接口请求头：%s" %self.request_headers)
+        logger.info("%s接口请求头：%s" %(self.apiName,self.request_headers))
 
         self.request_body = data
         self.request_body = self.request_body.encode('utf-8')  #注意 入参会存在中文，需要转码处理
-        logger.info("接口请求参数：%s" %self.request_body)
+        logger.info("%s接口请求参数：%s" %(self.apiName,self.request_body))
 
     def testApi(self):
         if self.request_method != None and self.request_method != '':
@@ -31,10 +33,9 @@ class APITest(object):
                 self.request_url = reqUrl+self.request_url
                 if self.request_headers == '' or self.request_headers == None:
                     request_headers = {}
-                    logger.debug("接口请求头信息为%s" % request_headers ) #<class 'dict'>
+                    logger.debug("接口请求头信息为空，赋予默认值：%s" % request_headers ) #<class 'dict'>
                 else:
                     request_headers = strToDict(self.request_headers)
-                    logger.debug("接口请求头信息为%s" % request_headers) #<class 'dict'>
             else:
                 logger.error("参数非法（请求地址为空）")
         else:

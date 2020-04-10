@@ -20,7 +20,6 @@ class readConf():
         #获取当前py所在的父目录（不包括当前文件）
         fileParPath = os.path.dirname(os.path.dirname(currentFileDir))
         configPath = os.path.join(fileParPath, "conf\conf.ini")
-        logger.info("配置文件路径为：%s" %configPath)
         return configPath
 
     #获取服务器主机和端口号
@@ -50,15 +49,15 @@ class readConf():
         except Exception as e:
             logger.error("测路服务配置信息异常",e)
 
-    #获取测试用例路径
+    #获取接口数据存放文件路径（excel）
     def getExcelInfo(self):
         try:
             conf_items_EXCEL = self.conf.items("EXCEL")
-            filePath = conf_items_EXCEL[0][1]
-            logger.info("测试用例路径为：%s" % filePath)
-            return  filePath
+            excelPath = conf_items_EXCEL[0][1]
+            logger.info("接口数据Excel路径为：%s" % excelPath)
+            return  excelPath
         except Exception as e:
-            logger.error("测试用例路径异常",e)
+            logger.error("接口数据路径异常",e)
 
     #获取邮件服务信息
     def getEmailInfo(self):
@@ -98,7 +97,7 @@ class readConf():
         try:
             conf_items_TESTCASE =self.conf.items("TESTCASE")
             testCasePath = conf_items_TESTCASE[0][1]
-            logger.info("测试日志路径为：%s" % testCasePath)
+            logger.info("测试用例路径为：%s" % testCasePath)
             return testCasePath
         except Exception as e:
             logger.error("测试用例路径配置异常", e)

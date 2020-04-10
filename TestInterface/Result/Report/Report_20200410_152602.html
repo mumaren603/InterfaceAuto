@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>OutQuery_Report</title>
+    <title>接口测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,10 +188,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>OutQuery_Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-04-09 09:59:39</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.581000</p>
-<p class='attribute'><strong>Status:</strong> Pass 4</p>
+<h1>接口测试报告</h1>
+<p class='attribute'><strong>Start Time:</strong> 2020-04-10 15:26:02</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.215000</p>
+<p class='attribute'><strong>Status:</strong> Pass 3 Failure 1 Error 3</p>
 
 <p class='description'>This is a report test</p>
 </div>
@@ -221,41 +221,164 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
-    <td>Testcase.testOutQuery.testOutQuery</td>
-    <td>4</td>
-    <td>4</td>
+<tr class='errorClass'>
+    <td>case_AzqdController.azqdController</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
+    <td>3</td>
+    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_getAzqdById001</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: Traceback (most recent call last):
+  File "F:\python_s14\TestInterface\Testcase\case_AzqdController.py", line 33, in test_getAzqdById001
+    raise IndexError
+IndexError
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_getCfQlrxx001</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: Traceback (most recent call last):
+  File "F:\python_s14\TestInterface\Testcase\case_AzqdController.py", line 76, in test_getCfQlrxx001
+    raise IndexError
+IndexError
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_getDaglHxx001</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        error</a>
+
+    <div id='div_ft1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.3: Traceback (most recent call last):
+  File "F:\python_s14\TestInterface\Testcase\case_AzqdController.py", line 55, in test_getDaglHxx001
+    raise IndexError
+IndexError
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>case_OutQuery.OutQuery</td>
+    <td>4</td>
+    <td>3</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',4)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_getDyxx001</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getTdxx001</div></td>
-    <td colspan='5' align='center'>pass</td>
+<tr id='ft2.2' class='none'>
+    <td class='failCase'><div class='testcase'>test_getTdxx001</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.2')" >
+        fail</a>
+
+    <div id='div_ft2.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.2: Traceback (most recent call last):
+  File "F:\python_s14\TestInterface\Testcase\case_OutQuery.py", line 29, in test_getTdxx001
+    self.assertIn(self.expectRes,actualRes[1])
+AssertionError: '"城镇住宅用地"' not found in '{"code":1,"msg":"未查到土地信息","data":null}'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\python_s14\TestInterface\Testcase\case_OutQuery.py", line 33, in test_getTdxx001
+    raise AssertionError
+AssertionError
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
 </tr>
 
-<tr id='pt1.3' class='hiddenRow'>
+<tr id='pt2.3' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_getYgxx001</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt1.4' class='hiddenRow'>
+<tr id='pt2.4' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_getYgxx002</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>4</td>
-    <td>4</td>
-    <td>0</td>
-    <td>0</td>
+    <td>7</td>
+    <td>3</td>
+    <td>1</td>
+    <td>3</td>
     <td>&nbsp;</td>
 </tr>
 </table>

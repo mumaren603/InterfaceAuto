@@ -1,12 +1,10 @@
 #Author: ls Liu
 import logging
-# from mainMethod.readConfig import readConf
 import os
 from time import strftime
 
 class loggerConf():
     def __init__(self):
-        # logFileDir = readConf().getLogPath()
         #创建一个Logger
         logger = self.logger = logging.getLogger(__name__)
         logger.setLevel(logging.DEBUG)               #设置总日志级别
